@@ -74,6 +74,7 @@
     ```
 
    After running the script we get: `ClVLIh4ASCsCBE8lAxMacFMOXTlTWxooFhRXJh4FGnBTVF4sFxFeLFMK`
+
    This is our solution cookie! Time to go test it out.
 5. Head back over to the cookies for Natas11 in Chrome.
 
