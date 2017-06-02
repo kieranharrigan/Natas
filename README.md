@@ -55,7 +55,7 @@
    Here is the final php script used to generate our encrypted "unlock" cookie:
    ```
    <?php
-    function xor_encrypt($in) {
+   function xor_encrypt($in) {
        $key = 'qw8J';
        $text = $in;
        $outText = '';
