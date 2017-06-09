@@ -23,7 +23,7 @@
    
    Pop open your favorite text editor and paste in the following code:
 
-   `<? php echo exec("cat /etc/natas_webpass/natas13"); ?>`
+   `<?php echo exec("cat /etc/natas_webpass/natas13"); ?>`
 
    This line of php targets the `/etc/natas_webpass/natas13` file. As we know, each server has a password file stored locally, but it can only be accessed by the level's account (natas13) or the previous level's account (natas12). We're on Natas12, so the server we're running commands on will have proper permissions to read from that password file.
 5. You can save the php script with whatever file extension you'd like, the backend only cares about the extension we provide through "filename".
