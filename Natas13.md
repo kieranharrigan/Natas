@@ -6,7 +6,7 @@
 
    We notice that the way Natas13 checks for images is via the exif_imagetype() method: `exif_imagetype($_FILES['uploadedfile']['tmp_name'])`
 
-   exif_imagetype() is an interesting way to check because all it does it look to see if a file has the proper image signature. These signatures can easily be googled for and therefore easily faked.
+   exif_imagetype() is an interesting way to check because all it does is look to see if a file has the proper image signature. These signatures can easily be googled for and therefore easily faked.
 2. Let's take jpeg for example, if the first 4 bytes of a file are `FF D8 FF E0` then the file is a jpeg.
 
    Knowing this, let's create our own "jpeg" image. Open up your shell of choice and run the following command: `echo -e "\xff\xd8\xff\xe0" > fakejpg`
